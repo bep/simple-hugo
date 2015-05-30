@@ -2,7 +2,7 @@
 Work in progress.
 
 # Simple Hugo
-A simple [hugo](gohugo.io) theme.
+A simple [hugo](http://gohugo.io/) theme.
 
 #### Params
 - For add new links on navbar see ```[params.links]```.
