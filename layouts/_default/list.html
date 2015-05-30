@@ -1,0 +1,13 @@
+{{ partial "head" . }}
+<body>
+	{{ partial "navbar" . }}
+	<div class="container page-wrap">
+		{{ range .Data.Pages }}
+		    {{ if eq .Type  "post" }}
+		        {{ .Render "list"}}
+		    {{ end }}
+		{{ end }}
+	</div>
+	{{ partial "footer" . }}
+	{{ partial "script" . }}
+</body>
