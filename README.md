@@ -5,7 +5,7 @@ Work in progress.
 A simple [hugo](gohugo.io) theme.
 
 #### Params
-- For add new links on navbar see ```[params.links]``` section
+- For add new links on navbar see ```[params.links]```.
 ```toml
 [params]
   github = "username"
