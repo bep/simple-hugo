@@ -2,11 +2,7 @@
 <body>
     {{ partial "navbar.html" . }}
     <div class="container page-wrap">
-        {{ range .Data.Pages }}
-            {{ if eq .Type  "post" }}
-                {{ .Render "list"}}
-            {{ end }}
-        {{ end }}
+        {{ partial "posts.html" . }}
     </div>
     {{ partial "footer.html" .  }}
 	{{ partial "script.html" .  }}
