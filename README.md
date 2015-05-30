@@ -1,5 +1,22 @@
+# Alert
+Work in progress.
+
 # Simple Hugo
 A simple [hugo](gohugo.io) theme.
 
-# Alert
-Work in progress.
+#### Params
+- For add new links on navbar see ```[params.links]``` section
+```toml
+[params]
+  github = "username"
+  twitter = "username"
+  email = "email"
+  shortDescription = "yada yada yada"
+  [params.links]
+    [params.links.About]
+      "url" = "/about/"
+      "title" = "About"
+    [params.links.ContactMe]
+      "url" = "/contact/"
+      "title" = "Contact Me"
+```
