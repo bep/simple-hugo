@@ -14,6 +14,9 @@
                 {{ range .Site.Params.links }}
                     <li><a href="{{ .url }}" {{ with .targetBlank }} target="_blank" {{ end }}>{{ .title }}</a></li>
                 {{ end }}
+                {{ if .Site.Params.useRSS }}
+                    <li><a href="{{ .RSSlink }}" type="application/rss+xml" target="_blank"><i class="fa fa-fw fa-rss"></i></a></li>
+                {{ end }}
             </ul>
         </div>
     </div>
