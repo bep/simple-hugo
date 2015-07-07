@@ -5,7 +5,7 @@ description = "An elegant, open source and simple theme"
 homepage = "https://github.com/druzza/simple-hugo"
 tags = ["blog", "dev"]
 features = ["blog", "dev"]
-min_version = 0.1
+min_version = 0.14
 
 [author]
   name = "Daniel Ruzza"
